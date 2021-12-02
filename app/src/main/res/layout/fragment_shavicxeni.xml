@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/gradient_background"
     android:layout_height="match_parent">
 
 
@@ -11,25 +12,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="-202dp"
         android:text="ნახეს, უცხო მოყმე ვინმე ჯდა მტირალი წყლისა პირსა,
 შავი ცხენი სადავითა ჰყვა ლომსა და ვითა გმირსა,
 ხშირად ესხა მარგალიტი ლაგამ-აბჯარ-უნაგირსა.
 ცრემლსა ვარდი დაეთრთვილა, გულსა მდუღრად ანატირსა."
-        android:textColor="#FF0000"
+        android:textColor="#000000"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <TextView
-        android:id="@+id/textView4"
+
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="🐎"
-        android:textSize="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/_498999"
+        android:layout_marginBottom="150dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
